@@ -2,25 +2,11 @@
 
 In this lab, you will create the Azure Machine Learning workspace that you will use throughout the rest of this course.
 
-## Before You Start
-
-To complete the labs in this course, you will need an Azure subscription. If you do not already have one, you can sign up for a free trial at [https://azure.microsoft.com](https://azure.microsoft.com).
-
-If you are using an Azure Pass subscription, provided to you for this course, your account may not have been assigned to the subscription **Owner** role, which may be required for some operations in this course. To add your account to the **Owner** role:
-
-1. Sign into the [Azure portal](https://portal.azure.com) and view your **Subscriptions**.
-2. Select the subscription you created using an Azure pass (it will probably have a name similar to **Azure Pass - Sponsorship**).
-3. In the blade for your subscription, open the **My Permissions** page, and then click the link on it to view complete access details for the subscription.
-4. Under **Add role assignment**, click **Add**. Then select the following and click **Save**:
-    - **Role**: Owner
-    - **Assign access to**: Azure AD user, group, or service principal
-    - **Select**: The Microsoft account you used to sign into Azure.
-
 ## Task 1: Create an Azure ML Workspace
 
 As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
-1. In the [Azure portal](https://portal.azure.com), create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group in the region nearest your location. Select the **Enterprise** workspace edition.
+1. In the Azure portal, create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group in the region nearest your location. Select the **Enterprise** workspace edition.
 
    > **Note**: Basic edition workspaces have lower cost, but don't include capabilities like Auto ML, the Visual Designer, and data drift monitoring. For more details, see [Azure Machine Learning pricing](https://azure.microsoft.com/en-us/pricing/details/machine-learning/).
 
