@@ -2,10 +2,6 @@
 
 There's no point in training and registering models if you don't plan to make them available for applications to use. In this lab, you'll deploy a model as a web service for real-time inferencing.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Create a Real-time Inferencing Service
 
 In this task, you'll create a real-time inferencing service as an Azure Container Instance (ACI).
