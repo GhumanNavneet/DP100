@@ -6,7 +6,7 @@ Now that you have a trained model, you can take the training pipeline and use it
 
 ## Before You Start
 
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab. You must also complete [Lab 2A](Lab02A.md), which includes tasks to create the Designer training pipeline used in this lab.
+Before you start this lab, ensure that you have completed [Lab 2A](Lab02A.md), which includes tasks to create the Designer training pipeline used in this lab.
 
 ## Task 1: Prepare Inference Compute
 
