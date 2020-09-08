@@ -4,7 +4,7 @@ Before starting with module testing please complete the following task.
 
 ## Task 1: Create Data Resources
 
-1. From Azure portal, navigate to the resource group **dp-100-{UniqueId}** and select the Machine Learning workspace **quick-starts-ws-{UniqueId}**.
+1. From the Azure portal, navigate to the resource group **dp-100-{UniqueId}** and select the Machine Learning workspace **quick-starts-ws-{UniqueId}**.
 
 1. Select Overview in the left navigation bar and then select **Launch now** which will navigate directly to the Azure Machine Learning studio.
 
