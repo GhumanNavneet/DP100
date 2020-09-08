@@ -5,7 +5,7 @@ Although it's fairly common for data scientists to work with data on their local
 ## Task 1: Create an Azure Storage Container
 You can use many kinds of Azure data source in Azure Machine Learning. In this lab, you'll create an Azure Storage account that includes a blob container.
 
-1. Sign into the [Azure portal](https://portal.azure.com), and open the resource group containing your Azure Machine Learning workspace. Note that this already contains an Azure Storage account that was created with your workspace.
+1. Sign into the https://portal.azure.com using the credentail given in **Lab Environment** page, and open the resource group containing your Azure Machine Learning workspace. Note that this already contains an Azure Storage account that was created with your workspace.
 
     >**Note**: The storage account created with your workspace is used by the service to store configuration data, notebooks, registered models, and so on. You can also use it to store data for experimentation and model training, but in many cases you'll want to manage this data separately.
 
