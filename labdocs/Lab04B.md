@@ -2,10 +2,6 @@
 
 Datasets provide a way to encapsulate data for experiments and training. You can use tabular and file datasets to define versioned sources of data that can easily be consumed in experiments.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Work with Datasets
 
 In this task, you'll use code in a notebook to work with tabular and file datasets.
