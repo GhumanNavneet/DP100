@@ -2,10 +2,6 @@
 
 You can use the Azure Machine Learning SDK to perform all of the tasks required to create and operate a machine learning solution in Azure. Rather than perform these tasks individually, you can use *pipelines* to orchestrate the steps required to prepare data, run training scripts, register models, and other tasks.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Create a Pipeline
 
 In this task, you'll create a pipeline to train and register a model.
