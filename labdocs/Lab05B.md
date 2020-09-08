@@ -2,10 +2,6 @@
 
 While you can run experiments on your local compute, in many cases you'll want to leverage cloud compute for increased scalability.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Work with Compute Targets
 
 In this task, you'll run a training experiment on a cloud-based compute target.
