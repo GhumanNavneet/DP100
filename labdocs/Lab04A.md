@@ -2,10 +2,6 @@
 
 Although it's fairly common for data scientists to work with data on their local file system, in an enterprise environment it can be more effective to store the data in a central location where multiple data scientists can access it. In this lab, you'll store data in the cloud, and use an Azure Machine Learning *datastore* to access it.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Create an Azure Storage Container
 You can use many kinds of Azure data source in Azure Machine Learning. In this lab, you'll create an Azure Storage account that includes a blob container.
 
