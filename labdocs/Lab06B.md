@@ -4,7 +4,7 @@ After you've created a pipeline, you can publish a REST endpoint through which t
 
 ## Before You Start
 
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab; and [Lab 6A](Lab06A.md) in which you create the pipeline you will publish in this lab.
+Before you start this lab, ensure that you have completed [Lab 6A](Lab06A.md) in which you create the pipeline you will publish in this lab.
 
 ## Task 1: Publish a Pipeline
 
