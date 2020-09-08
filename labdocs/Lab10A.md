@@ -2,10 +2,6 @@
 
 When you deploy a model as a service, it's useful to be able to track information about the requests it processes.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Monitor a Model with Application Insights
 
 In this task, you'll deploy a model as a service, and use Azure Application Insights to  monitor it.
