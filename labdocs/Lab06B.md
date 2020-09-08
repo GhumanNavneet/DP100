@@ -4,7 +4,7 @@ After you've created a pipeline, you can publish a REST endpoint through which t
 
 ## Before You Start
 
-Before you start this lab, ensure that you have completed [Lab 6A](Lab06A.md) in which you create the pipeline you will publish in this lab.
+Before you start this lab, ensure that you have completed `Lab 6A` in which you create the pipeline you will publish in this lab.
 
 ## Task 1: Publish a Pipeline
 
