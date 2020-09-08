@@ -1,6 +1,6 @@
 # Before You Start
 
-Before starting with moduel testing please complelte the following task.
+Before starting with module testing please complelte the following task.
 
 ## Task 1: Create Data Resources
 
