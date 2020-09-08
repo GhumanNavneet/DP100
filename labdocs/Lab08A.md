@@ -4,10 +4,6 @@ Hyperparameters are variables that affect how a model is trained, but which can'
 
 In this lab, you'll use Azure Machine Learning to tune hyperparameters by performing multiple training runs in parallel.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Tune Hyperparameters
 
 In this task, you'll run an experiment to optimize hyperparameters for model training.
