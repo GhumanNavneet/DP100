@@ -2,10 +2,6 @@
 
 All Python code runs in the context of an environment, which determines the Python packages available. When you run a script as an experiment in Azure Machine Learning, you can configure the environment in which it runs.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Work with Environments
 
 In this task, you'll use code in a notebook to work with environments for Azure Machine Learning experiments.
