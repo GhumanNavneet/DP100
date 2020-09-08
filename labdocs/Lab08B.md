@@ -4,10 +4,6 @@ Determining the right algorithm and preprocessing transformations for model trai
 
 In this lab, you'll use automated machine learning to determine the optimal algorithm and preprocessing steps for a model by performing multiple training runs in parallel.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Use Automated Machine Learning
 
 In this task, you'll use automated machine learning to determine the optimal algorithm and preprocessing transformations for model training.
