@@ -2,10 +2,6 @@
 
 Experiments are at the core of a data scientist's work. In Azure Machine Learning, an *experiment* is used to run a script or a pipeline, and usually generates outputs and records metrics.
 
-## Before You Start
-
-Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) and [Lab 1B](Lab01B.md), which include tasks to create the Azure Machine Learning workspace and other resources used in this lab.
-
 ## Task 1: Run Experiments in a Compute Instance
 
 An Azure Machine Learning Compute Instance provides a useful environment for running experiment code, right in your workspace.
