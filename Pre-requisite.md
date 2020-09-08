@@ -1,5 +1,7 @@
 # Before You Start
 
+Before starting with moduel testing please complelte the following task.
+
 ## Task 1: Create Data Resources
 
 1. In the *Studio* interface, view the **Datastores** page. Your Azure ML workspace already includes two datastores based on the Azure Storage account that are created along with the workspace. These are used to store notebooks, configuration files, and data.
