@@ -6,9 +6,16 @@ In this lab, you will create the Azure Machine Learning workspace that you will 
 
 As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
-1. In the Azure portal, create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group in the region nearest your location. Select the **Enterprise** workspace edition.
+1. From the Azure portal, search for and select **Machine Learning**.
 
-   > **Note**: Basic edition workspaces have lower cost, but don't include capabilities like Auto ML, the Visual Designer, and data drift monitoring. For more details, see [Azure Machine Learning pricing](https://azure.microsoft.com/en-us/pricing/details/machine-learning/).
+1. On the **Machine Learning** blade, click on **Create azure machine learning** to create a new machine learning workspace
+
+1. On the **Create a machine learning workspace** blade, provide the following details and click on **Review + create** then **Create**.
+
+    - **Subscription** : Select the subscription from the dropdown
+    - **Resource group** : Select the existing resource group named dp-100-{UniqueId}
+    - **Workspace name** : quick-starts-ws-{UniqueId}
+    -  **Region** : Select the same region as your resource group
 
 2. When the workspace and its associated resources have been created, view the workspace in the portal.
 
@@ -18,14 +25,17 @@ You can manage workspace assets in the Azure portal, but for data scientists, th
 
 > **Note**: The web-based interface for Azure ML is named *Azure Machine Learning studio*, which you may find confusing as there is also a free *Azure Machine Learning Studio* product for creating machine learning models using a visual designer. A more scalable version of this visual designer is included in the new studio interface.
 
-1. In the Azure portal blade for your Azure Machine Learning workspace, click the link to launch **Azure Machine Learning studio**; or alternatively, in a new browser tab, open [https://ml.azure.com](https://ml.azure.com). If prompted, sign in using the Microsoft account you used in the previous task and select your Azure subscription and workspace.
+1. In the Azure portal blade for your Azure Machine Learning workspace, click the link to launch **Azure Machine Learning studio**; or alternatively, in a new browser tab, open [https://ml.azure.com](https://ml.azure.com). If prompted, sign in using the provided azure credentails and select your Azure subscription and workspace.
+
+    >**Note**: You can get the crendentials from the environment details page.
+    
 2. View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
 
 ## Task 3: Create Compute Resources
 
 One of the benefits of Azure Machine Learning is the ability to create cloud-based compute on which you can run experiments and training scripts at scale.
 
-1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
+1. In the Azure Machine Learning studio web interface for your workspace, select **Compute** from the left hand side menu and view the page. This is where you'll manage all the compute targets for your data science activities.
 2. On the **Compute Instances** tab, add a new compute instance with the following settings. You'll use this as a workstation from which to test your model:
     - **Compute name**: *enter a unique name*
     - **Virtual Machine type**: CPU
@@ -47,11 +57,11 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
 
 Now that you have some compute resources that you can use to process data, you'll need a way to store and ingest the data to be processed.
 
-1. In the *Studio* interface, view the **Datastores** page. Your Azure ML workspace already includes two datastores based on the Azure Storage account that was created along with the workspace. These are used to store notebooks, configuration files, and data.
+1. In the *Studio* interface, select **Datastores** from the left hand side menu and view the page. Your Azure ML workspace already includes two datastores based on the Azure Storage account that was created along with the workspace. These are used to store notebooks, configuration files, and data.
 
    > **Note**: In a real-world environment, you'd likely add custom datastores that reference your business data stores - for example, Azure blob containers, Azure Data Lakes, Azure SQL Databases, and so on. You'll explore this later in the course.
 
-2. In the *Studio* interface, view the **Datasets** page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
+2. In the *Studio* interface, select **Datasets** from the left hand side menu and view the page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
 3. Create a new dataset from web files, using the following settings:
     * **Basic Info**:
         * **Web URL**: https://aka.ms/diabetes-data
