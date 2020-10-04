@@ -45,6 +45,7 @@ Compute instances in Azure Machine Learning provide an easy to manage Python env
 2. Create a codespace with the following settings (if you don't already have a Visual Studio Codespaces plan, create one when prompted - this is used to track resource utilization by your codespaces):
     - **Codespace Name**: *A unique name of your choice*
     - **Git Repository**: MicrosoftLearning/DP100
+    - **Resource Group Name**: "Use the dp-100- XXXXXX which is a existing resource group"
     - **Instance Type**: Standard (Linux)
     - **suspend idle Codespace after**: 60 Minutes
 3.  Wait for the codespace to be created. This will open a browser-based instance of Visual Studio Code.
