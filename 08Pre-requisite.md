@@ -55,7 +55,7 @@ You can perform most asset management tasks to set up your environment in the *S
 5. Run the following command to upgrade the **scikit-learn** package.
 
     ```bash
-    pip install --upgrade scikit-learn
+    pip install scikit-learn==0.21
     ```
     You may see some warnings as the package dependencies are installed. You can ignore these.
 
